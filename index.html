@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container pt-5">
+        <nav class="navbar navbar-expand-lg  bg-dark ">
+            <div class="container-md">
+              <a class="navbar-brand" href="#">TODO LIST</a>
+            </div>
+          </nav>
+          <div class="pt-3 mb-3">
+            <input type="text" placeholder="Enter task..." class="taskInput">
+            <button type="button" class="btn btn-success my-3  add-task">Add Task</button>
+          </div>
+        <ul class="list-group uls">
+            <!-- <li class="list-group-item items"><a href="" class="trash-icons"><i class="bi bi-trash3"></i></a> An item</li> -->
+          </ul>
+      </div>
+      <div class="deleteBtn container pt-5 mb-3">
+        <button type="button" class="btn btn-outline-dark d-none delete-tasks">Delete All Tasks</button>
+      </div>
+  <script src="./JS/main.js"></script>
+</body>
+</html>

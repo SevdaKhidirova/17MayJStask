@@ -1,0 +1,9 @@
+.taskInput{
+    width: 400px;
+    height: 38px;
+    border-radius: 10px;
+}
+i{
+    color: rgb(42, 180, 49);
+    cursor: pointer;
+}
