@@ -24,12 +24,13 @@ function Add(){
     let newTaskElement="<li class='list-group-item items'><i class='bi bi-trash3'></i> "+" "+taskInput.value+"&nbsp &nbsp "+dateTime+"</li>"
     tasksArea.innerHTML+=newTaskElement;
     taskInput.value=""
+    deleteTaskBtn.classList.remove("d-none")
+
     }
     else{
         alert("Empty")
     }
     
-    deleteTaskBtn.classList.remove("d-none")
 }
 
 addBtn.onclick=()=>{
