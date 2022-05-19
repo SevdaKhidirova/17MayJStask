@@ -15,9 +15,14 @@ document.addEventListener("keyup",function(e){
     }
 })
 
-// ('.bi-trash3').click(function(){
-//     $(this).parent().remove(); // or $(this).closest("li").remove();
-//   });
+document.addEventListener("click",function(e){
+    if (e.target.hasAttribute("class") && e.target.getAttribute("class").includes("bi-trash3")) {
+        e.target.parentNode.remove()
+    }
+    if(document.querySelector(".bi-trash3")==undefined){
+        deleteTaskBtn.classList.add("d-none");
+    }
+})
 
 function Add(){
     if(taskInput.value.length>0){
