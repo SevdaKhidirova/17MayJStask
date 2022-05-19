@@ -7,3 +7,7 @@ i{
     color: rgb(42, 180, 49);
     cursor: pointer;
 }
+li .time-area{
+    border-radius:20px ;
+    float: right;
+}

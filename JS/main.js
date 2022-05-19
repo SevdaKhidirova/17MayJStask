@@ -26,7 +26,7 @@ document.addEventListener("click",function(e){
 
 function Add(){
     if(taskInput.value.length>0){
-    let newTaskElement="<li class='list-group-item items'><i class='bi bi-trash3'></i> "+" "+taskInput.value+"&nbsp &nbsp "+dateTime+"</li>"
+    let newTaskElement="<li class='list-group-item items'><i class='bi bi-trash3'></i> "+" "+taskInput.value+"  "+"<span class='btn btn-primary time-area'>"+dateTime+"</span>"+"</li>"
     tasksArea.innerHTML+=newTaskElement;
     taskInput.value=""
     deleteTaskBtn.classList.remove("d-none")
